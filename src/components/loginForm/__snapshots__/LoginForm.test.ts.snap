@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LoginForm.vue > should render correctly 1`] = `
+"<form>
+  <div class="form-controls">
+    <div class="form-control"><label for="user_email">Your email</label><input type="text" id="user_email" name="email" placeholder="Email" autocomplete="email" required="" aria-describedby="email-error" aria-invalid="false">
+      <!--v-if-->
+    </div>
+    <div class="form-control"><label for="user_password">Your password</label><input type="password" id="user_password" name="password" placeholder="Password" autocomplete="current-password" required="" aria-describedby="password-error" aria-invalid="false">
+      <!--v-if-->
+    </div>
+  </div><button type="submit" disabled="">Log in</button>
+  <h2></h2>
+</form>"
+`;

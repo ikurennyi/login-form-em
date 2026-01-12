@@ -16,7 +16,7 @@ describe('useForm', () => {
 
   it('initializes with default values', () => {
     expect(form.fields).toEqual({})
-    expect(form.disabled).toBe(false)
+    expect(form.isProcessing).toBe(false)
     expect(form.responseError).toBe('')
   })
 
@@ -31,12 +31,12 @@ describe('useForm', () => {
 
     const promise = form.submit(sender)
 
-    expect(form.disabled).toBe(true)
+    expect(form.isProcessing).toBe(true)
 
     await promise
 
     expect(sender).toHaveBeenCalledWith(form.fields)
-    expect(form.disabled).toBe(false)
+    expect(form.isProcessing).toBe(false)
     expect(form.responseError).toBe('')
   })
 
@@ -46,7 +46,7 @@ describe('useForm', () => {
 
     await form.submit(sender)
 
-    expect(form.disabled).toBe(false)
+    expect(form.isProcessing).toBe(false)
     expect(form.responseError).toBe(errorMsg)
   })
 

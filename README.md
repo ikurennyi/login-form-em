@@ -1,20 +1,20 @@
 # TODO (very pure plan):
 
-1. Create an example of Login Form
-2. Add styles
-3. Add dark and light color schemes
-4. Add responsive design
-5. Split code into components
-6. Use composables
-7. Cover with tests
+1. ~~Create an example of Login Form~~
+2. ~~Add style~~s
+3. ~~Add dark and light color scheme~~s
+4. ~~Add responsive design~~
+5. ~~Split code into component~~s
+6. ~~Use composable~~s
+7. ~~Cover with test~~s
 8. Add description to the README.md
 9. Publish it on GitHub Pages
 
 # NOTEs
 
 - The `useForm` composable was took from my other project and just a little improved (and tested) here.
-- There is still no validation and form handling for the form. These should be added.
 - No need to create extra files for types and interfaces in such a tiny project.
+- `oxlint` added for test purpose only.
 
 # login-form-em
 

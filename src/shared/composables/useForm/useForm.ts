@@ -7,10 +7,10 @@ export function useForm<TFields extends RecordsStubType = RecordsStubType>({
 }: { fields?: TFields } = {}) {
   const form = reactive({
     fields,
-    disabled: false,
+    isProcessing: false,
     responseError: '',
     async submit(sender: (fields: TFields) => Promise<void>) {
-      this.disabled = true
+      this.isProcessing = true
 
       try {
         await sender(fields)
@@ -18,7 +18,7 @@ export function useForm<TFields extends RecordsStubType = RecordsStubType>({
         const text = error instanceof Error ? error.message : String(error)
         this.responseError = text
       } finally {
-        this.disabled = false
+        this.isProcessing = false
         setTimeout(() => (this.responseError = ''), 2000)
       }
     },

@@ -1,72 +1,44 @@
-# TODO (very pure plan):
+# Login Form
 
-1. ~~Create an example of Login Form~~
-2. ~~Add style~~s
-3. ~~Add dark and light color scheme~~s
-4. ~~Add responsive design~~
-5. ~~Split code into component~~s
-6. ~~Use composable~~s
-7. ~~Cover with test~~s
-8. Add description to the README.md
-9. Publish it on GitHub Pages
+> Created as a test task by Ievgenii Kurennyi
+>
+> This project was created as a test assignment aka "Create Login Form"
 
-# NOTEs
+## Table of Contents
 
-- The `useForm` composable was took from my other project and just a little improved (and tested) here.
-- No need to create extra files for types and interfaces in such a tiny project.
-- `oxlint` added for test purpose only.
+1. [Application Notes](#application-notes)
+2. [Where to view](#where-to-view)
+3. [List of Used Technologies](#list-of-used-technologies)
+4. [Personal Notes for those who would have time to read](#personal-notes-for-those-who-would-have-time-to-read)
 
-# login-form-em
+### <a id="application-notes">Application Notes</a>
 
-This template should help get you started developing with Vue 3 in Vite.
+1. When writing this code, the focus was on the form itself rather than on the choice of framework or the setup of the development environment.
+2. Vue 3 was chosen to build the form because the author is currently working with Vue (2).
+3. The login form is accessible via keyboard navigation.
+4. To manage the form state, the author used their own (slightly improved) composable that had been written earlier.
+5. Two new composables were written to handle form validation and control state.
+6. The tests cover the basic functionality.
+7. Prettier and ESLint were used without pre-commit hooks.
+8. The author did not aim to build a full-fledged application; a number of simplifications were intentionally made.
 
-## Recommended IDE Setup
+### <a id="where-to-view">Where to view</a>
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. The live preview is available on [GitHub Pages](https://ikurennyi.github.io/login-form-em/).
+2. You can run the code locally: please install dependencies and run `npm run dev` in your terminal.
+3. You can check the code here at GitHub repository [login-form-em](https://github.com/ikurennyi/login-form-em).
 
-## Recommended Browser Setup
+### <a id="list-of-used-technologies">List of Used Technologies</a>
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+1. [Vue.js](https://vuejs.org/)
+2. [Vitest](https://vitest.dev)
+3. [Vite](https://vite.dev/)
+4. [TypeScript](https://www.typescriptlang.org/)
+5. [ESLint](https://eslint.org/)
+6. [Prettier](https://prettier.io/)
 
-## Type Support for `.vue` Imports in TS
+### <a id="personal-notes-for-those-who-would-have-time-to-read">Personal Notes for those who would have time to read</a>
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. No need to create extra files for types and interfaces in such a tiny project.
+2. `oxlint` added for test purpose only.
+3. And as always: "there is no limit to perfection".

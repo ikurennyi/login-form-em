@@ -14,10 +14,10 @@
 ### <a id="application-notes">Application Notes</a>
 
 1. When writing this code, the focus was on the form itself rather than on the choice of framework or the setup of the development environment.
-2. Vue 3 was chosen to build the form because the author is currently working with Vue (2).
+2. Vue 3 was chosen to build the form because the author is currently working with Vue (v2).
 3. The login form is accessible via keyboard navigation.
-4. To manage the form state, the author used their own (slightly improved) composable that had been written earlier.
-5. Two new composables were written to handle form validation and control state.
+4. To manage the form state, the author used their own (slightly improved) composable that had been written earlier [here](https://github.com/ikurennyi/tasks-management/commit/b67f7c9f84497337cac1c260dad928c8533dbea3#diff-305b44060d9f77f7eb09b613ce677d40cd0c79b9d532ac1368fcfe204ddd84eb).
+5. Two new composables were written to handle form validation and control state in addition to the `useForm`.
 6. The tests cover the basic functionality.
 7. Prettier and ESLint were used without pre-commit hooks.
 8. The author did not aim to build a full-fledged application; a number of simplifications were intentionally made.

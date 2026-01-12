@@ -1,3 +1,14 @@
+# TODO (very pure plan):
+
+1. Create an example of Login Form
+2. Add styles
+3. Add dark and light color schemes
+4. Add responsive design
+5. Split code into components
+6. Use composables
+7. Cover with tests
+8. Publish it on GitHub Pages
+
 # login-form-em
 
 This template should help get you started developing with Vue 3 in Vite.

@@ -7,7 +7,14 @@
 5. Split code into components
 6. Use composables
 7. Cover with tests
-8. Publish it on GitHub Pages
+8. Add description to the README.md
+9. Publish it on GitHub Pages
+
+# NOTEs
+
+- The `useForm` composable was took from my other project and just a little improved (and tested) here.
+- There is still no validation and form handling for the form. These should be added.
+- No need to create extra files for types and interfaces in such a tiny project.
 
 # login-form-em
 

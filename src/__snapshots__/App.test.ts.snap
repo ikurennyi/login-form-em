@@ -1,9 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`App.vue > should render correctly 1`] = `
-"<section data-v-7a7a37b1="" class="login-page">
-  <h1 data-v-7a7a37b1=""> We'd love you to become our new member! <div data-v-7a7a37b1="" class="trick"> Fill in the form below... <br data-v-7a7a37b1=""> to get the treasures! </div>
-  </h1>
-  <login-form-stub data-v-7a7a37b1=""></login-form-stub>
-</section>"
-`;

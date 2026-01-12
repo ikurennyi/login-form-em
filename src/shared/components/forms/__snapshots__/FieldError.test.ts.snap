@@ -1,3 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`FieldError.vue > should render correctly 1`] = `"<p class="form-control__error" role="alert" id="error-id">Error message</p>"`;
